@@ -5,7 +5,7 @@ from time import sleep
 # Make sure your keys.py file lives in the same directory as this .py file.
 from key import *
 
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth = tweepy.OAuthHandler(Api_key, Api_secret_key)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
